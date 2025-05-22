@@ -1,0 +1,23 @@
+# Streamlit Configuration File
+
+[server]
+# Runs in headless mode on port 8501 without CORS restrictions
+headless = true
+port = 8501
+enableCORS = false
+
+[browser]
+# Disables telemetry data collection
+gatherUsageStats = false
+
+[runner]
+# Turn off magic commands for clearer execution
+magicEnabled = false
+
+[theme]
+base = "light"
+primaryColor = "#0D47A1"
+backgroundColor = "#F7F9FC"
+secondaryBackgroundColor = "#E3EFFF"
+textColor = "#0A1116"
+font = "sans serif"
