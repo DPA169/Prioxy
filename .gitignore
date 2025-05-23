@@ -65,3 +65,6 @@ data/historical_data.csv
 # Secrets, environment variables
 .env.local
 .env.*.local
+
+# Docker
+Dockerfile
